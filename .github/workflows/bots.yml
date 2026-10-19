@@ -1,13 +1,14 @@
 name: Bots
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened]
 
 jobs:
   auto-approve:
-    name: Auto Approve
     runs-on: ubuntu-latest
     if: github.actor == 'renovate[bot]'
+    permissions:
+      pull-requests: write
     steps:
       - uses: hmarr/auto-approve-action@v4
