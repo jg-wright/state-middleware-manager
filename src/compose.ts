@@ -1,5 +1,5 @@
-import { Middleware } from './Middleware.js'
-import { MiddlewareComposer } from './MiddlewareComposer.js'
+import type { Middleware } from './Middleware.ts'
+import type { MiddlewareComposer } from './MiddlewareComposer.ts'
 
 export const compose: MiddlewareComposer =
   (...middleware: Middleware<unknown, unknown>[]) =>
