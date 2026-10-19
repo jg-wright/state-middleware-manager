@@ -13,10 +13,12 @@
     "noUnusedParameters": true,
     "outDir": "./dist",
     "resolveJsonModule": true,
+    "rewriteRelativeImportExtensions": true,
     "rootDir": "./src",
     "sourceMap": true,
     "strict": true,
-    "target": "ES2022"
+    "target": "es2022",
+    "types": ["node"]
   },
   "include": ["src"]
 }
