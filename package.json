@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jg-wright/state-middleware-manager.git"
+    "url": "git+https://github.com/jg-wright/state-middleware-manager.git"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
