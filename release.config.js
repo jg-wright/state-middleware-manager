@@ -1,9 +1,4 @@
-// @ts-check
-
-/**
- * @type {import('semantic-release').Options}
- */
-module.exports = {
+export default {
   branches: ['master'],
   plugins: [
     '@semantic-release/commit-analyzer',
