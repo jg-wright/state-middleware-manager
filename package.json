@@ -1,6 +1,6 @@
 {
   "name": "state-middleware-manager",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "State accumulating/reducing middleware manager",
   "type": "module",
   "exports": {
